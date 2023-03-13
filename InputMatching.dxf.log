@@ -1,0 +1,47 @@
+$AWR Design Environment
+$Version 17.01r build 17442 Rev2 (9c7c2759f8b)
+$Export time : Mon Mar 13 15:58:02 2023
+$Export Format: DXF
+$Export File Name: C:\Users\ncard\OneDrive - University of Ottawa\University Archive\Year 5\Winter Term\Microwave Circuits\ELG4115\InputMatching.dxf
+
+
+
+Statistics Of Layers
+
+Drawing Layer    File Layer     Layer DataType Rects Polygons  Paths Ellipses Texts Pins Drillholes
+---------------------------------------------------------------------------------------------------
+Thick Metal      Thick Metal      12        0     0        12     0        0     0    0         0
+
+
+Summary Of Objects
+------------------
+         0 Rects     
+        12 Polygons  
+         0 Paths     
+         0 Texts     
+         0 Ellipses  
+         0 Instances 
+         0 Arrays    
+         0 Pins      
+         0 Drillholes
+
+
+Export Options
+--------------
+Cell library name: Input
+Database unit per DXF unit(nm): 1000000
+Database unit size (nm):: 10
+Draw path as polygon: 1
+Export pcell instances as cells: 0
+Export subcircuits as cells: 1
+Flatten cell hierarchy: 1
+Merge polygons on the +/- layers: 1
+Replace illegal characters in layer names: 0
+Skip faces and draw pins as polygons: 1
+Union polygons on the same layer: 0
+Write Cell using cached geometry: 0
+Write out pcell parameter maps: 0
+
+
+*** There were 0 warning and 0 error messages ***
+
