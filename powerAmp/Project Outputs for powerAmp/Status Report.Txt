@@ -1,0 +1,13 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [powerAmp.PrjPcb]
+   Generated File[powerAmp.GTL]
+   Generated File[powerAmp.RUL]
+   Generated File[powerAmp.EXTREP]
+   Generated File[powerAmp.REP]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 3:23:41 AM On 2023-03-14

@@ -1,0 +1,88 @@
+
+***************************************************************
+*	Infineon	Technologies	AG
+*	GUMMEL-POON	MODEL	IN	SPICE	2G6	SYNTAX
+*	VALID	UP	TO	12	GHZ
+*	>>>	BFP405F	<<<
+*	(C)	2014	Infineon	Technologies	AG
+*	Version	3.1	October 2014
+***************************************************************
+*.OPTION GMIN= 1.00e-12
+*BFP405F 111 22 31 32
+.SUBCKT BFP405F 111 22 31 32
+*
+CBEPAR 2 3 1.298E-013
+CBCPAR 2 10 3.516E-014
+CCEPAR 10 3 1.546E-015
+LEx    30 33 6.318E-011
+LBx    20 22 3.058E-010
+LCx    11 111 2.194E-010
+CBEPCK 20 30  6.219E-014
+CBCPCK 11 20  7.843E-015
+CCEPCK 11 30  6.427E-014
+LB   2 20 2.813E-010
+LE   3 30 1.568E-010
+LC   10 11  6.141E-010
+*
+RE1 33 31 1E-03
+RE2 33 32 1E-03
+*
+RSub 4 30 39.31
+Rcx 1 10 1
+*
+Diode_sub 4 1 M_Diode_sub
+*
+.MODEL M_Diode_sub D(
++	IS	=	3.5E-015
++	N	=	1.02
++	RS	=	1380
++	CJO	=	4E-014)
+*
+Q1 1 2 3 4 M_BFP405F
+*
+.MODEL 	M_BFP405F	NPN(
++	TNOM	=	25
++	IS	=	9.786E-018
++	BF	=	122.6
++	NF	=	0.9944
++	VAF	=	55.11
++	IKF	=	0.17
++	ISE	=	2.521E-014
++	NE	=	2.458
++	BR	=	17.08
++	NR	=	0.9849
++	VAR	=	3
++	IKR	=	0.812
++	ISC	=	8.824E-017
++	NC	=	1.373
++	RB	=	28.06
++	IRB	=	0
++	RBM	=	7.073
++	RE	=	0.8343
++	RC	=	8.855
++	XTB	=	-0.1945
++	EG	=	1.11
++	XTI	=	5.65
++	CJE	=	9.201E-014
++	VJE	=	0.9622
++	MJE	=	0.4628
++	TF	=	5.026E-012
++	XTF	=	710.7
++	VTF	=	1.631
++	ITF	=	2.188
++	PTF	=	2.329E-008
++	CJC	=	2.974E-014
++	VJC	=	0.9104
++	MJC	=	0.7658
++	XCJC	=	0.7499
++	TR	=	1.879E-009
++	CJS	=	3.298E-013
++	MJS	=	0.5521
++         VJS       =         2
++	FC	=	0.5
++	KF	=	0
++	AF	=	1)
+***************************************************************
+*
+*
+.ENDS BFP405F

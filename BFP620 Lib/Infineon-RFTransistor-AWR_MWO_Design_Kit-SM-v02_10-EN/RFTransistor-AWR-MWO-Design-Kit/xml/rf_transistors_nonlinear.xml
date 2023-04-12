@@ -1,0 +1,719 @@
+<?xml version="1.0"?>
+<XML_COMPONENT_DATA xmlns="urn:awr-lib-data">
+	<COPYRIGHT>The data in this file is copyright of Infineon Technologies</COPYRIGHT>
+	<SUMMARY>This file contains data on Infineon RF Transistors </SUMMARY>
+	<FOLDER Name ="Low Noise Si Transistor up to 2.5 GHz" Icon ="BJT">
+		<COMPONENT Name="BFP181">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Low Noise Si Transistor up to 2.5 GHz, SOT143-4-1 package, Key parameters: VCE0max=12.0V ICmax=20.0mA NFmin=0.9dB Gmax=21.0dB OIP3=16.5dBm OP1dB=-2.0dBm fT=8.0GHz Ptot=175.0mW</DESC>
+			<PARTNUMBER>SP000011013</PARTNUMBER>
+			<SYMBOL>bjt4_2e@infineon_32.syf</SYMBOL>
+			<HELP>URL_read_error</HELP>
+			<CELL>SOT143@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFP181.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP182W">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Low Noise Si Transistor up to 2.5 GHz, SOT343 package, Key parameters: VCE0max=12.0V ICmax=35.0mA NFmin=0.9dB Gmax=22.0dB OIP3=24.0dBm OP1dB=5.0dBm fT=8.0GHz Ptot=250.0mW</DESC>
+			<PARTNUMBER>BFP182WH6327XTSA1</PARTNUMBER>
+			<SYMBOL>bjt4_2e@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=db3a3044243b532e0124c960d6f062e6</HELP>
+			<CELL>SOT343_4_1@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFP182W.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP183">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Low Noise Si Transistor up to 2.5 GHz, SOT143 package, Key parameters: VCE0max=12.0V ICmax=65.0mA NFmin=0.9dB Gmax=22.0dB OIP3= OP1dB= fT=8.0GHz Ptot=250.0mW</DESC>
+			<PARTNUMBER>SP000011054</PARTNUMBER>
+			<SYMBOL>bjt4_2e@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/producthttp://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/low-noise-si-transistor-up-to-25-ghz/BFP+183+E7764/productType.html?productType=ff80808112ab681d0112ab6edaa41efe</HELP>
+			<CELL>SOT143@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFP183.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP183W">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Low Noise Si Transistor up to 2.5 GHz, SOT343 package, Key parameters: VCE0max=12.0V ICmax=65.0mA NFmin=0.9dB Gmax=22.0dB OIP3=26.5dBm OP1dB=8.5dBm fT=8.0GHz Ptot=450.0mW</DESC>
+			<PARTNUMBER>BFP183WH6327XTSA1</PARTNUMBER>
+			<SYMBOL>bjt4_2e@infineon_32.syf</SYMBOL>
+			<HELP>URL_read_error</HELP>
+			<CELL>SOT143@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFP183W.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFR181W">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Low Noise Si Transistor up to 2.5 GHz, SOT323 package, Key parameters: VCE0max=12.0V ICmax=20.0mA NFmin=0.9dB Gmax=19.0dB OIP3=18.0dBm OP1dB=-1.0dBm fT=8.0GHz Ptot=175.0mW</DESC>
+			<PARTNUMBER>BFR181WH6327XTSA1</PARTNUMBER>
+			<SYMBOL>BJT3@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=db3a3044243b532e012501620e627ce2</HELP>
+			<CELL>SOT323@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFR181W.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFR182">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Low Noise Si Transistor up to 2.5 GHz, SOT23 package, Key parameters: VCE0max=12.0V ICmax=35.0mA NFmin=0.9dB Gmax=18.0dB OIP3=24.5dBm OP1dB=5.0dBm fT=8.0GHz Ptot=250.0mW</DESC>
+			<PARTNUMBER>BFR182E6327HTSA1</PARTNUMBER>
+			<SYMBOL>BJT3@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=ff80808112ab681d0112ab6fdfb2283c</HELP>
+			<CELL>SOT23@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFR182.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFR182W">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Low Noise Si Transistor up to 2.5 GHz, SOT323 package, Key parameters: VCE0max=12.0V ICmax=35.0mA NFmin=0.9dB Gmax=19.0dB OIP3=25.0dBm OP1dB=5.0dBm fT=8.0GHz Ptot=250.0mW</DESC>
+			<PARTNUMBER>BFR182WH6327XTSA1</PARTNUMBER>
+			<SYMBOL>BJT3@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=db3a3044243b532e0125016210767ce3</HELP>
+			<CELL>SOT323@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFR182W.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFR340F">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Low Noise Si Transistor up to 2.5 GHz, TSFP-3-1 package, Key parameters: VCE0max=6.0V ICmax=10.0mA NFmin=1.15dB Gmax=16.5dB OIP3=13.0dBm OP1dB=-1.0dBm fT=14.0GHz Ptot=60.0mW</DESC>
+			<PARTNUMBER>BFR340FH6327XTSA1</PARTNUMBER>
+			<SYMBOL>BJT3@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=db3a3044243b532e0125016218557ce6</HELP>
+			<CELL>TSFP_3@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFR340F.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFR35AP">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Low Noise Si Transistor up to 2.5 GHz, SOT23 package, Key parameters: VCE0max=15.0V ICmax=45.0mA NFmin=1.4dB Gmax=16.0dB OIP3=24.0dBm OP1dB=9.0dBm fT=5.0GHz Ptot=280.0mW</DESC>
+			<PARTNUMBER>BFR35APE6327HTSA1</PARTNUMBER>
+			<SYMBOL>BJT3@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=ff80808112ab681d0112ab6f49a52322</HELP>
+			<CELL>SOT23@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFR35AP.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFR92P">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Low Noise Si Transistor up to 2.5 GHz, SOT23 package, Key parameters: VCE0max=15.0V ICmax=45.0mA NFmin=1.4dB Gmax=16.0dB OIP3=24.0dBm OP1dB=9.0dBm fT=5.0GHz Ptot=280.0mW</DESC>
+			<PARTNUMBER>BFR92PE6327HTSA1</PARTNUMBER>
+			<SYMBOL>BJT3@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=ff80808112ab681d0112ab6f7662251a</HELP>
+			<CELL>SOT23@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFR92P.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="Web Info">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Use Righ-Mouse-Click on "Element Help" to go to Infineon WEB</DESC>
+			<PARTNUMBER></PARTNUMBER>
+			<SYMBOL>Infineon_Logo@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/low-noise-si-transistor-up-to-25-ghz/channel.html?channel=ff80808112ab681d0112ab6b2bb80750</HELP>
+			<CELL></CELL>
+			<DATA DataType="pspicemodel">
+				
+			</DATA>
+		</COMPONENT>
+	</FOLDER>
+	<FOLDER Name ="Low Noise Si Transistor up to 5 GHz" Icon ="BJT">
+		<COMPONENT Name="BFP405">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Low Noise Si Transistor up to 5 GHz, SOT343 package, Key parameters: VCE0max=4.5V ICmax=12.0mA NFmin=1.25dB Gmax=23.0dB OIP3=15.0dBm OP1dB=5.0dBm fT=25.0GHz Ptot=55.0mW</DESC>
+			<PARTNUMBER>BFP405H6327XTSA1</PARTNUMBER>
+			<SYMBOL>bjt4_2e@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=db3a3044243b532e0124c9ceb2cb635d</HELP>
+			<CELL>SOT343_4_2@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFP405.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP405F">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Low Noise Si Transistor up to 5 GHz, TSFP-4-1 package, Key parameters: VCE0max=4.5V ICmax=12.0mA NFmin=1.25dB Gmax=22.5dB OIP3=14.0dBm OP1dB=0.0dBm fT=25.0GHz Ptot=55.0mW</DESC>
+			<PARTNUMBER>BFP405FH6327XTSA1</PARTNUMBER>
+			<SYMBOL>bjt4_2e@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=db3a3044243b532e0124c9cec037635f</HELP>
+			<CELL>TSFP_4@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFP405F.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP410">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Low Noise Si Transistor up to 5 GHz, SOT343 package, Key parameters: VCE0max=4.5V ICmax=40.0mA NFmin=1.2dB Gmax=21.5dB OIP3=23.5dBm OP1dB=10.5dBm fT=25.0GHz Ptot=150.0mW</DESC>
+			<PARTNUMBER>BFP410H6327XTSA1</PARTNUMBER>
+			<SYMBOL>bjt4_2e@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=db3a3044252f0d6f01256effb7b7291a</HELP>
+			<CELL>SOT343_4_2@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFP410.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP420">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Low Noise Si Transistor up to 5 GHz, SOT343 package, Key parameters: VCE0max=4.5V ICmax=35.0mA NFmin=1.1dB Gmax=21.0dB OIP3=22.0dBm OP1dB=12.0dBm fT=25.0GHz Ptot=160.0mW</DESC>
+			<PARTNUMBER>BFP420H6327XTSA1</PARTNUMBER>
+			<SYMBOL>bjt4_2e@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=db3a3044243b532e0124c9cec25d6360</HELP>
+			<CELL>SOT343_4_2@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFP420.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP420F">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Low Noise Si Transistor up to 5 GHz, TSFP-4-1 package, Key parameters: VCE0max=4.5V ICmax=35.0mA NFmin=1.1dB Gmax=19.5dB OIP3=24.0dBm OP1dB=10.5dBm fT=25.0GHz Ptot=160.0mW</DESC>
+			<PARTNUMBER>BFP420FH6327XTSA1</PARTNUMBER>
+			<SYMBOL>bjt4_2e@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=db3a3044243b532e0124c9cecb2f6364</HELP>
+			<CELL>TSFP_4@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFP420F.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP460">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Low Noise Si Transistor up to 5 GHz, SOT343 package, Key parameters: VCE0max=4.5V ICmax=50.0mA NFmin=1.1dB Gmax=17.5dB OIP3=27.5dBm OP1dB=11.5dBm fT=22.0GHz Ptot=200.0mW</DESC>
+			<PARTNUMBER>BFP460H6327XTSA1</PARTNUMBER>
+			<SYMBOL>bjt4_2e@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=db3a3044243b532e0124c9ced7936368</HELP>
+			<CELL>SOT343_4_2@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFP460.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP520">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Low Noise Si Transistor up to 5 GHz, SOT343 package, Key parameters: VCE0max=2.5V ICmax=40.0mA NFmin=0.95dB Gmax=23.5dB OIP3=25.0dBm OP1dB=12.0dBm fT=45.0GHz Ptot=100.0mW</DESC>
+			<PARTNUMBER>BFP520H6327XTSA1</PARTNUMBER>
+			<SYMBOL>bjt4_2e@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=db3a3044243b532e0124c9cedbc0636a</HELP>
+			<CELL>SOT343_4_2@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFP520.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP540">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Low Noise Si Transistor up to 5 GHz, SOT343 package, Key parameters: VCE0max=4.5V ICmax=80.0mA NFmin=0.9dB Gmax=21.5dB OIP3=24.5dBm OP1dB=11.0dBm fT=30.0GHz Ptot=250.0mW</DESC>
+			<PARTNUMBER>BFP540H6327XTSA1</PARTNUMBER>
+			<SYMBOL>bjt4_2e@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=db3a3044243b532e0124c9cedfd0636c</HELP>
+			<CELL>SOT343_4_2@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFP540.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP540ESD">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Low Noise Si Transistor up to 5 GHz, SOT343 package, Key parameters: VCE0max=4.5V ICmax=80.0mA NFmin=0.9dB Gmax=21.5dB OIP3=24.5dBm OP1dB=11.0dBm fT=30.0GHz Ptot=250.0mW</DESC>
+			<PARTNUMBER>BFP540ESDH6327XTSA1</PARTNUMBER>
+			<SYMBOL>bjt4_2e@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=db3a3044243b532e0124c9cee1d9636d</HELP>
+			<CELL>SOT343_4_2@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFP540ESD.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP540FESD">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Low Noise Si Transistor up to 5 GHz, TSFP-4-1 package, Key parameters: VCE0max=4.5V ICmax=80.0mA NFmin=0.9dB Gmax=20.0dB OIP3=24.5dBm OP1dB=11.0dBm fT=30.0GHz Ptot=250.0mW</DESC>
+			<PARTNUMBER>BFP540FESDH6327XTSA1</PARTNUMBER>
+			<SYMBOL>bjt4_2e@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=db3a3044243b532e0124c9cee3dc636e</HELP>
+			<CELL>TSFP_4@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFP540FESD.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="Web Info">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Use Righ-Mouse-Click on "Element Help" to go to Infineon WEB</DESC>
+			<PARTNUMBER></PARTNUMBER>
+			<SYMBOL>Infineon_Logo@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/low-noise-si-transistor-up-to-5-ghz/channel.html?channel=ff80808112ab681d0112ab6b2c590752</HELP>
+			<CELL></CELL>
+			<DATA DataType="pspicemodel">
+				
+			</DATA>
+		</COMPONENT>
+	</FOLDER>
+	<FOLDER Name ="High Linearity Si- and SiGe:C-Transistors up to 6 GHz" Icon ="BJT">
+		<COMPONENT Name="BFP193">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>High Linearity Si- and SiGe:C-Transistors up to 6 GHz, SOT143-4-1 package, Key parameters: VCE0max=12.0V ICmax=80.0mA NFmin=1.0dB Gmax=18.0dB OIP3=29.5dBm OP1dB=15.0dBm fT=8.0GHz Ptot=580.0mW</DESC>
+			<PARTNUMBER>BFP193E6327HTSA1</PARTNUMBER>
+			<SYMBOL>bjt4_2e@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=ff80808112ab681d0112ab6ee60f1f6a</HELP>
+			<CELL>SOT143@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFP193.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP193W">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>High Linearity Si- and SiGe:C-Transistors up to 6 GHz, SOT343 package, Key parameters: VCE0max=12.0V ICmax=80.0mA NFmin=1.0dB Gmax=20.5dB OIP3=29.5dBm OP1dB=15.0dBm fT=8.0GHz Ptot=580.0mW</DESC>
+			<PARTNUMBER>BFP193WH6327XTSA1</PARTNUMBER>
+			<SYMBOL>bjt4_2e@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=db3a3044243b532e0124c9ceae34635b</HELP>
+			<CELL>SOT343_4_1@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFP193W.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP196">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>High Linearity Si- and SiGe:C-Transistors up to 6 GHz, SOT143-4-1 package, Key parameters: VCE0max= ICmax= NFmin= Gmax= OIP3= OP1dB= fT= Ptot=</DESC>
+			<PARTNUMBER>BFP196E6327HTSA1</PARTNUMBER>
+			<SYMBOL>bjt4_2e@infineon_32.syf</SYMBOL>
+			<HELP>URL_read_error</HELP>
+			<CELL>SOT143@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFP196.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP196W">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>High Linearity Si- and SiGe:C-Transistors up to 6 GHz, SOT343 package, Key parameters: VCE0max=12.0V ICmax=150.0mA NFmin=1.3dB Gmax=19.0dB OIP3=32.0dBm OP1dB=19.0dBm fT=7.5GHz Ptot=700.0mW</DESC>
+			<PARTNUMBER>BFP196WH6327XTSA1</PARTNUMBER>
+			<SYMBOL>bjt4_2e@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=db3a3044243b532e0124c9ceb0a1635c</HELP>
+			<CELL>SOT343_4_1@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFP196W.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP450">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>High Linearity Si- and SiGe:C-Transistors up to 6 GHz, SOT343 package, Key parameters: VCE0max=4.5V ICmax=100.0mA NFmin=1.25dB Gmax=15.5dB OIP3=29.0dBm OP1dB=19.0dBm fT=24.0GHz Ptot=450.0mW</DESC>
+			<PARTNUMBER>BFP450H6327XTSA1</PARTNUMBER>
+			<SYMBOL>bjt4_2e@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=db3a3044243b532e0124c9ced1886365</HELP>
+			<CELL>SOT343_4_2@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFP450.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP650">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>High Linearity Si- and SiGe:C-Transistors up to 6 GHz, SOT343 package, Key parameters: VCE0max=4.0V ICmax=150.0mA NFmin=0.8dB Gmax=21.5dB OIP3=29.5dBm OP1dB=18.0dBm fT=37.0GHz Ptot=500.0mW</DESC>
+			<PARTNUMBER>BFP650H6327XTSA1</PARTNUMBER>
+			<SYMBOL>bjt4_2e@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=db3a3044243b532e0125016200e37cdc</HELP>
+			<CELL>SOT343_4_2@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFP650.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP750">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>High Linearity Si- and SiGe:C-Transistors up to 6 GHz, SOT343 package, Key parameters: VCE0max=4.0V ICmax=90.0mA NFmin=0.9dB Gmax=22.5dB OIP3=30.0dBm OP1dB=16.0dBm fT=41.0GHz Ptot=360.0mW</DESC>
+			<PARTNUMBER>BFP750H6327XTSA1</PARTNUMBER>
+			<SYMBOL>bjt4_2e@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=db3a30442b8709d7012b9ba3e64e1018</HELP>
+			<CELL>SOT343_4_2@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFP750.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP760">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>High Linearity Si- and SiGe:C-Transistors up to 6 GHz, SOT343-4-2 package, Key parameters: VCE0max=4.0V ICmax=70.0mA NFmin=0.5dB Gmax=25.0dB OIP3=31.5dBm OP1dB=14.5dBm fT=45.0GHz Ptot=240.0mW</DESC>
+			<PARTNUMBER>BFP760H6327XTSA1</PARTNUMBER>
+			<SYMBOL>bjt4_2e@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=db3a3044382e4f0601384c2334461be9</HELP>
+			<CELL>SOT343_4_2@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFP760.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFQ19S">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>High Linearity Si- and SiGe:C-Transistors up to 6 GHz, SOT89 package, Key parameters: VCE0max=15.0V ICmax=210.0mA NFmin=1.8dB Gmax=11.5dB OIP3=32.0dBm OP1dB=22.0dBm fT=5.5GHz Ptot=1.0W</DESC>
+			<PARTNUMBER>BFQ19SE6327HTSA1</PARTNUMBER>
+			<SYMBOL>BJT3@system.syf</SYMBOL>
+			<HELP>URL_read_error</HELP>
+			<CELL>SOT89@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFQ19S.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFR106">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>High Linearity Si- and SiGe:C-Transistors up to 6 GHz, SOT23 package, Key parameters: VCE0max=15.0V ICmax=210.0mA NFmin=1.8dB Gmax=13.0dB OIP3=32.0dBm OP1dB=22.0dBm fT=5.0GHz Ptot=700.0mW</DESC>
+			<PARTNUMBER>BFR106E6327HTSA1</PARTNUMBER>
+			<SYMBOL>BJT3@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=ff80808112ab681d0112ab6fc9e427c4</HELP>
+			<CELL>SOT23@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFR106.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFR193F">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>High Linearity Si- and SiGe:C-Transistors up to 6 GHz, TSFP-3-1 package, Key parameters: VCE0max=12.0V ICmax=80.0mA NFmin=1.0dB Gmax=19.0dB OIP3=29.0dBm OP1dB=14.8dBm fT=8.0GHz Ptot=580.0mW</DESC>
+			<PARTNUMBER>BFR193FH6327XTSA1</PARTNUMBER>
+			<SYMBOL>BJT3@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=db3a3044243b532e0125016214557ce5</HELP>
+			<CELL>TSFP_3@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFR193F.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFR193W">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>High Linearity Si- and SiGe:C-Transistors up to 6 GHz, SOT323 package, Key parameters: VCE0max=12.0V ICmax=80.0mA NFmin=1.3dB Gmax=16.0dB OIP3=30.0dBm OP1dB=15.0dBm fT=8.0GHz Ptot=580.0mW</DESC>
+			<PARTNUMBER>BFR193WH6327XTSA1</PARTNUMBER>
+			<SYMBOL>BJT3@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=db3a3044243b532e012457de062d0980</HELP>
+			<CELL>SOT323@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFR193W.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFR380F">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>High Linearity Si- and SiGe:C-Transistors up to 6 GHz, TSFP-3-1 package, Key parameters: VCE0max=6.0V ICmax=80.0mA NFmin=1.1dB Gmax=13.5dB OIP3=29.0dBm OP1dB=17.0dBm fT=14.0GHz Ptot=380.0mW</DESC>
+			<PARTNUMBER>BFR380FH6327XTSA1</PARTNUMBER>
+			<SYMBOL>BJT3@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=db3a3044243b532e01250198e3567d10</HELP>
+			<CELL>TSFP_3@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFR380F.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFR93A">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>High Linearity Si- and SiGe:C-Transistors up to 6 GHz, SOT23 package, Key parameters: VCE0max=12.0V ICmax=90.0mA NFmin=1.5dB Gmax=14.5dB OIP3=30.0dBm OP1dB=15.0dBm fT=6.0GHz Ptot=300.0mW</DESC>
+			<PARTNUMBER>BFR93AE6327HTSA1</PARTNUMBER>
+			<SYMBOL>BJT3@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=ff80808112ab681d0112ab6f8a25259c</HELP>
+			<CELL>SOT23@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFR93A.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFR93AW">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>High Linearity Si- and SiGe:C-Transistors up to 6 GHz, SOT323 package, Key parameters: VCE0max=12.0V ICmax=90.0mA NFmin=1.5dB Gmax=15.5dB OIP3=30.0dBm OP1dB=15.0dBm fT=6.0GHz Ptot=300.0mW</DESC>
+			<PARTNUMBER>BFR93AWH6327XTSA1</PARTNUMBER>
+			<SYMBOL>BJT3@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=db3a3044243b532e012457de043d097f</HELP>
+			<CELL>SOT323@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFR93AW.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="Web Info">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Use Righ-Mouse-Click on "Element Help" to go to Infineon WEB</DESC>
+			<PARTNUMBER></PARTNUMBER>
+			<SYMBOL>Infineon_Logo@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/high-linearity-si-and-sigec-transistor-for-use-up-to-6-ghz/channel.html?channel=ff80808112ab681d0112ab6b2cf10754</HELP>
+			<CELL></CELL>
+			<DATA DataType="pspicemodel">
+				
+			</DATA>
+		</COMPONENT>
+	</FOLDER>
+	<FOLDER Name ="Ultra Low Noise SiGe:C Transistors up to 12 GHz" Icon ="BJT">
+		<COMPONENT Name="BFP620">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Ultra Low Noise SiGe:C Transistors up to 12 GHz, SOT343 package, Key parameters: VCE0max=2.3V ICmax=80.0mA NFmin=0.7dB Gmax=21.5dB OIP3=25.5dBm OP1dB=14.5dBm fT=65.0GHz Ptot=185.0mW</DESC>
+			<PARTNUMBER>BFP620H7764XTSA1</PARTNUMBER>
+			<SYMBOL>bjt4_2e@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=db3a3044243b532e0124c9cee5f7636f</HELP>
+			<CELL>SOT343_4_2@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFP620.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP620F">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Ultra Low Noise SiGe:C Transistors up to 12 GHz, TSFP-4-1 package, Key parameters: VCE0max=2.3V ICmax=80.0mA NFmin=0.7dB Gmax=21.0dB OIP3=25.0dBm OP1dB=14.0dBm fT=65.0GHz Ptot=185.0mW</DESC>
+			<PARTNUMBER>BFP620FH7764XTSA1</PARTNUMBER>
+			<SYMBOL>bjt4_2e@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=db3a3044243b532e0124c9cee8126370</HELP>
+			<CELL>TSFP_4@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFP620F.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP640">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Ultra Low Noise SiGe:C Transistors up to 12 GHz, SOT343 package, Key parameters: VCE0max=4.0V ICmax=50.0mA NFmin=0.65dB Gmax=24.0dB OIP3=26.5dBm OP1dB=13.0dBm fT=40.0GHz Ptot=200.0mW</DESC>
+			<PARTNUMBER>BFP640H6327XTSA1</PARTNUMBER>
+			<SYMBOL>bjt4_2e@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=db3a3044243b532e0124c9ceea796371</HELP>
+			<CELL>SOT343_4_2@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFP640.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP640ESD">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Ultra Low Noise SiGe:C Transistors up to 12 GHz, SOT343 package, Key parameters: VCE0max=4.1V ICmax=50.0mA NFmin=0.65dB Gmax=25.0dB OIP3=27.0dBm OP1dB=12.0dBm fT=46.0GHz Ptot=200.0mW</DESC>
+			<PARTNUMBER>BFP640ESDH6327XTSA1</PARTNUMBER>
+			<SYMBOL>bjt4_2e@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=db3a304425afcf6a0126764bd3687c0b</HELP>
+			<CELL>SOT343_4_2@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFP640ESD.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP640F">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Ultra Low Noise SiGe:C Transistors up to 12 GHz, TSFP-4-1 package, Key parameters: VCE0max=4.0V ICmax=50.0mA NFmin=0.65dB Gmax=23.0dB OIP3=27.5dBm OP1dB=13.5dBm fT=40.0GHz Ptot=200.0mW</DESC>
+			<PARTNUMBER>BFP640FE6327HTSA1</PARTNUMBER>
+			<SYMBOL>bjt4_2e@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=db3a3044243b532e01250161feea7cdb</HELP>
+			<CELL>TSFP_4@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFP640F.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP640FESD">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Ultra Low Noise SiGe:C Transistors up to 12 GHz, TSFP-4-1 package, Key parameters: VCE0max=4.1V ICmax=50.0mA NFmin=0.55dB Gmax=26.5dB OIP3=26.0dBm OP1dB=11.5dBm fT=46.0GHz Ptot=200.0mW</DESC>
+			<PARTNUMBER>BFP640FESDH6327XTSA1</PARTNUMBER>
+			<SYMBOL>bjt4_2e@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=db3a30442c64a1a6012cc11ddc31669b</HELP>
+			<CELL>TSFP_4@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFP640FESD.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP720">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Ultra Low Noise SiGe:C Transistors up to 12 GHz, SOT343 package, Key parameters: VCE0max=4.0V ICmax=20.0mA NFmin=0.5dB Gmax=26.0dB OIP3=20.5dBm OP1dB=6.0dBm fT=45.0GHz Ptot=80.0mW</DESC>
+			<PARTNUMBER>BFP720H6327XTSA1</PARTNUMBER>
+			<SYMBOL>bjt4_2e@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=db3a3044243b532e0125016206aa7cde</HELP>
+			<CELL>SOT343_4_2@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFP720.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP720ESD">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Ultra Low Noise SiGe:C Transistors up to 12 GHz, SOT343 package, Key parameters: VCE0max=4.2V ICmax=25.0mA NFmin=0.6dB Gmax=27.0dB OIP3=22.0dBm OP1dB=6.5dBm fT=45.0GHz Ptot=100.0mW</DESC>
+			<PARTNUMBER>BFP720ESDH6327XTSA1</PARTNUMBER>
+			<SYMBOL>bjt4_2e@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=db3a304425afcf6a0126764bd55b7c0c</HELP>
+			<CELL>SOT343_4_2@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFP720ESD.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP720F">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Ultra Low Noise SiGe:C Transistors up to 12 GHz, TSFP-4-1 package, Key parameters: VCE0max=4.0V ICmax=20.0mA NFmin=0.5dB Gmax=26.0dB OIP3=20.5dBm OP1dB=6.0dBm fT=45.0GHz Ptot=80.0mW</DESC>
+			<PARTNUMBER>BFP720FH6327XTSA1</PARTNUMBER>
+			<SYMBOL>bjt4_2e@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=db3a3044243b532e01250162088f7cdf</HELP>
+			<CELL>TSFP_4@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFP720F.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP720FESD">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Ultra Low Noise SiGe:C Transistors up to 12 GHz, TSFP-4-1 package, Key parameters: VCE0max=4.2V ICmax=25.0mA NFmin=0.6dB Gmax=27.0dB OIP3=22.0dBm OP1dB=7.0dBm fT=45.0GHz Ptot=100.0mW</DESC>
+			<PARTNUMBER>BFP720FESDH6327XTSA1</PARTNUMBER>
+			<SYMBOL>bjt4_2e@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=db3a30442968bf8d012992cec10b24bf</HELP>
+			<CELL>TSFP_4@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFP720FESD.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP740">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Ultra Low Noise SiGe:C Transistors up to 12 GHz, SOT343 package, Key parameters: VCE0max=4.0V ICmax=45.0mA NFmin=0.5dB Gmax=27.0dB OIP3=25.0dBm OP1dB=11.0dBm fT=42.0GHz Ptot=160.0mW</DESC>
+			<PARTNUMBER>BFP740H6327XTSA1</PARTNUMBER>
+			<SYMBOL>bjt4_2e@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=db3a3044243b532e012501620a877ce0</HELP>
+			<CELL>SOT343_4_2@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFP740.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP740ESD">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Ultra Low Noise SiGe:C Transistors up to 12 GHz, SOT343-4-2 package, Key parameters: VCE0max=4.2V ICmax=35.0mA NFmin=0.6dB Gmax=27.0dB OIP3=25.0dBm OP1dB=10.0dBm fT=47.0GHz Ptot=160.0mW</DESC>
+			<PARTNUMBER>BFP740ESDH6327XTSA1</PARTNUMBER>
+			<SYMBOL>bjt4_2e@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=db3a304425afcf6a0126764bd95e7c0d</HELP>
+			<CELL>SOT343_4_2@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFP740ESD.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP740F">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Ultra Low Noise SiGe:C Transistors up to 12 GHz, TSFP-4-1 package, Key parameters: VCE0max=4.0V ICmax=45.0mA NFmin=0.5dB Gmax=27.5dB OIP3=25.0dBm OP1dB=11.0dBm fT=42.0GHz Ptot=160.0mW</DESC>
+			<PARTNUMBER>BFP740FH6327XTSA1</PARTNUMBER>
+			<SYMBOL>bjt4_2e@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=db3a3044243b532e012501620c757ce1</HELP>
+			<CELL>TSFP_4@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFP740F.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP740FESD">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Ultra Low Noise SiGe:C Transistors up to 12 GHz, TSFP-4-1 package, Key parameters: VCE0max=4.2V ICmax=35.0mA NFmin=0.6dB Gmax=27.0dB OIP3=24.5dBm OP1dB=10.0dBm fT=47.0GHz Ptot=160.0mW</DESC>
+			<PARTNUMBER>BFP740FESDH6327XTSA1</PARTNUMBER>
+			<SYMBOL>bjt4_2e@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=db3a30442c64a1a6012cc11de050669c</HELP>
+			<CELL>TSFP_4@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFP740FESD.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP840ESD">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Ultra Low Noise SiGe:C Transistors up to 12 GHz, SOT343 package, Key parameters: VCE0max=2.25V ICmax=35.0mA NFmin=0.6dB Gmax=27.0dB OIP3=21.0dBm OP1dB=4.5dBm fT=80.0GHz Ptot=75.0mW</DESC>
+			<PARTNUMBER>BFP840ESDH6327XTSA1</PARTNUMBER>
+			<SYMBOL>bjt4_2e@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=db3a304431e17d910131e259eaa40084</HELP>
+			<CELL>SOT343_4_2@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFP840ESD.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP840FESD">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Ultra Low Noise SiGe:C Transistors up to 12 GHz, TSFP-4-1 package, Key parameters: VCE0max=2.25V ICmax=35.0mA NFmin=0.55dB Gmax=27.5dB OIP3=21.0dBm OP1dB=4.5dBm fT=85.0GHz Ptot=75.0mW</DESC>
+			<PARTNUMBER>BFP840FESDH6327XTSA1</PARTNUMBER>
+			<SYMBOL>bjt4_2e@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=db3a30443511371601351f61686d080d</HELP>
+			<CELL>TSFP_4@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFP840FESD.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP842ESD">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Ultra Low Noise SiGe:C Transistors up to 12 GHz, SOT343 package, Key parameters: VCE0max=3.25V ICmax=40.0mA NFmin=0.4dB Gmax=23.5dB OIP3=24.5dBm OP1dB=8.0dBm fT=57.0GHz Ptot=120.0mW</DESC>
+			<PARTNUMBER>BFP842ESDH6327XTSA1</PARTNUMBER>
+			<SYMBOL>bjt4_2e@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=db3a304431e17d910131e259ed000085</HELP>
+			<CELL>SOT343_4_2@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFP842ESD.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP843">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Ultra Low Noise SiGe:C Transistors up to 12 GHz, SOT343 package, Key parameters: VCE0max=2.25 V ICmax=55.0mA NFmin=0.9dB Gmax=22.5dB OIP3=24.0dBm OP1dB=7.0dBm fT=- Ptot=125.0mW</DESC>
+			<PARTNUMBER>BFP843H6327XTSA1</PARTNUMBER>
+			<SYMBOL>bjt4_2e@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=db3a30443af36183013af4abbfee037a</HELP>
+			<CELL>SOT343_4_2@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFP843.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP843F">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Ultra Low Noise SiGe:C Transistors up to 12 GHz, TSFP package, Key parameters: VCE0max=2.25V ICmax=55.0mA NFmin=0.9dB Gmax=23.5dB OIP3=23.5dBm OP1dB=- fT=- Ptot=-</DESC>
+			<PARTNUMBER>BFP843FH6327XTSA1</PARTNUMBER>
+			<SYMBOL>bjt4_2e@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=db3a30443af36183013af4e2ae47040e</HELP>
+			<CELL>TSFP_4@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFP843F.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFR740L3RH">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Ultra Low Noise SiGe:C Transistors up to 12 GHz, TSLP-3-9 package, Key parameters: VCE0max=4.0V ICmax=30.0mA NFmin=0.5dB Gmax=24.5dB OIP3=25.0dBm OP1dB=11.0dBm fT=42.0GHz Ptot=160.0mW</DESC>
+			<PARTNUMBER>BFR740L3RHE6327XTSA1</PARTNUMBER>
+			<SYMBOL>BJT3@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=ff80808112ab681d0112ab6e0ce61648</HELP>
+			<CELL>TSLP_3_9@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFR740L3RH.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFR840L3RHESD">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Ultra Low Noise SiGe:C Transistors up to 12 GHz, TSLP-3-9 package, Key parameters: VCE0max=2.25V ICmax=35.0mA NFmin=0.5dB Gmax=26.5dB OIP3=17.0dBm OP1dB=4.0dBm fT=75.0GHz Ptot=75.0mW</DESC>
+			<PARTNUMBER>BFR840L3RHESDE6327XTSA1</PARTNUMBER>
+			<SYMBOL>BJT3@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=db3a304435113716013538ea2fc11591</HELP>
+			<CELL>TSLP_3_9@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFR840L3RHESD.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFR843EL3">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Ultra Low Noise SiGe:C Transistors up to 12 GHz, TSLP-3-9 package, Key parameters: VCE0max=2.25V ICmax=55.0mA NFmin=0.95dB Gmax=24.0dB OIP3=21.0dBm OP1dB=- fT=- Ptot=-</DESC>
+			<PARTNUMBER>BFR843EL3E6327XTSA1</PARTNUMBER>
+			<SYMBOL>BJT3@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=db3a30443af36183013af4e2b08d040f</HELP>
+			<CELL>TSLP_3_10@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFR843EL3.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="Web Info">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Use Righ-Mouse-Click on "Element Help" to go to Infineon WEB</DESC>
+			<PARTNUMBER></PARTNUMBER>
+			<SYMBOL>Infineon_Logo@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/ultra-low-noise-sigec-transistor-for-use-up-to-12-ghz/channel.html?channel=db3a30432b16d655012b1e9ec92d5b2d</HELP>
+			<CELL></CELL>
+			<DATA DataType="pspicemodel">
+				
+			</DATA>
+		</COMPONENT>
+	</FOLDER>
+	<FOLDER Name ="Medium Power Amplifiers" Icon ="BJT">
+		<COMPONENT Name="BFP780">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Medium Power Amplifiers, SOT343 package, Key parameters: VCE0max=5.0 V ICmax=90 mA NFmin=- Gmax=22 dB OIP3=34 dBm OP1dB=23 dBm fT=1.8 GHz Ptot=-</DESC>
+			<PARTNUMBER>BFP780H6327XTSA1</PARTNUMBER>
+			<SYMBOL>bjt4_2e@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=5546d4624ca27d02014cb2b9831402b4</HELP>
+			<CELL>SOT343_4_2@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFP780.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFQ790">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Medium Power Amplifiers, SOT89 package, Key parameters: VCE0max=5.0 V ICmax=250 mA NFmin=- Gmax=18.5 dB OIP3=38.5 dBm OP1dB=27 dBm fT=1.8 GHz Ptot=-</DESC>
+			<PARTNUMBER>BFQ790H6327XTSA1</PARTNUMBER>
+			<SYMBOL>BJT3@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=5546d4624ca27d02014cb2c2a98202c7</HELP>
+			<CELL>SOT89@Package_Lib_Spice.gds</CELL>
+			<DATA DataType="pspicemodel">
+				..\rf_transistors\BFQ790.mdl
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="Web Info">
+			<MODEL>pspicemodel</MODEL>
+			<DESC>Use Righ-Mouse-Click on "Element Help" to go to Infineon WEB</DESC>
+			<PARTNUMBER></PARTNUMBER>
+			<SYMBOL>Infineon_Logo@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/medium-power-amplifiers/channel.html?channel=5546d4624c9e0f0e014c9e104e6c000c</HELP>
+			<CELL></CELL>
+			<DATA DataType="pspicemodel">
+				
+			</DATA>
+		</COMPONENT>
+	</FOLDER>
+</XML_COMPONENT_DATA>

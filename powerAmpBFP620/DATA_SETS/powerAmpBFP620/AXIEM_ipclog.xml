@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="ipc_log_formatter.xsl"?>
+<tool_session>
+	<ipc_session>
+		<ipc_event>
+			<timestamp>2023-04-01T17:47:48.246</timestamp>
+			<serial_num>0006576</serial_num>
+			<type>message</type>
+			<direction>send</direction>
+			<transport>awr_local_ipc</transport>
+			<proc_name>AXIEM</proc_name> <proc_id>27876</proc_id>
+			<msg_id>03105</msg_id> <msg_name>SE_LOG_MESSAGE</msg_name>
+			<encoding>raw</encoding>
+			<from>EM_Server_G3h2d4algFlFBmAnqhtY5T.1896949822_204244040.0</from>
+			<to>MWO_Client_G3h2d4algFlFBmAnqhtY5T.1896949822</to>
+			<message_unique_name>W%AH_iKLaW%iHZ82QwaD0G</message_unique_name>
+		</ipc_event>
+		<ipc_event>
+			<timestamp>2023-04-01T17:47:48.254</timestamp>
+			<serial_num>0006577</serial_num>
+			<type>message</type>
+			<direction>send</direction>
+			<transport>awr_local_ipc</transport>
+			<proc_name>AXIEM</proc_name> <proc_id>27876</proc_id>
+			<msg_id>03104</msg_id> <msg_name>SE_SET_STAT_LABELS</msg_name>
+			<encoding>raw</encoding>
+			<from>EM_Server_G3h2d4algFlFBmAnqhtY5T.1896949822_204244040.0</from>
+			<to>MWO_Client_G3h2d4algFlFBmAnqhtY5T.1896949822</to>
+			<message_unique_name>wNeA4WiXFbKGKWHDGKvGV_</message_unique_name>
+		</ipc_event>
+		<ipc_event>
+			<timestamp>2023-04-01T17:47:48.301</timestamp>
+			<serial_num>0006578</serial_num>
+			<type>message</type>
+			<direction>send</direction>
+			<transport>awr_local_ipc</transport>
+			<proc_name>AXIEM</proc_name> <proc_id>27876</proc_id>
+			<msg_id>03101</msg_id> <msg_name>SE_STATUS_EVENT</msg_name>
+			<encoding>raw</encoding>
+			<from>EM_Server_G3h2d4algFlFBmAnqhtY5T.1896949822_204244040.0</from>
+			<to>MWO_Client_G3h2d4algFlFBmAnqhtY5T.1896949822</to>
+			<message_unique_name>6_x_W7WqvFF9CABUinwou1</message_unique_name>
+		</ipc_event>
+	</ipc_session>
+</tool_session>

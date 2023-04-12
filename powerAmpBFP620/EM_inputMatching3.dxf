@@ -1,0 +1,1488 @@
+  0
+SECTION
+  2
+HEADER
+  9
+$ACADVER
+  1
+AC1009
+  9
+$INSUNITS
+  70
+4
+  9
+$EXTMIN
+  10
+0.1
+  20
+0.10166
+  9
+$EXTMAX
+  10
+25.12782
+  20
+18.8
+  0
+ENDSEC
+  0
+SECTION
+  2
+TABLES
+  0
+TABLE
+  2
+LTYPE
+  70
+1
+  0
+LTYPE
+  2
+CONTINUOUS
+  70
+64
+  3
+Solid line
+  72
+65
+  73
+0
+  40
+0
+  0
+ENDTAB
+  0
+TABLE
+  2
+LAYER
+  70
+1
+  0
+LAYER
+  2
+Thick_Metal
+  70
+0
+  62
+31
+  6
+CONTINUOUS
+  0
+ENDTAB
+  0
+ENDSEC
+  0
+SECTION
+  2
+BLOCKS
+  0
+ENDSEC
+  0
+SECTION
+  2
+ENTITIES
+  0
+POLYLINE
+  8
+Thick_Metal
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+22.32098
+  20
+15.0419
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+22.02346
+  20
+14.96219
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+21.74431
+  20
+14.83201
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+21.492
+  20
+14.65534
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+21.2742
+  20
+14.43754
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+21.09753
+  20
+14.18523
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+20.96735
+  20
+13.90608
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+20.88764
+  20
+13.60856
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+20.86079
+  20
+13.30172
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+20.86079
+  20
+4.40275
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+20.84442
+  20
+4.02789
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+20.79545
+  20
+3.65587
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+20.71423
+  20
+3.28955
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+20.6014
+  20
+2.93169
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+20.45781
+  20
+2.58503
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+20.28455
+  20
+2.2522
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+20.08295
+  20
+1.93575
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+19.85453
+  20
+1.63806
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+19.60103
+  20
+1.36142
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+19.32439
+  20
+1.10792
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+19.0267
+  20
+0.8795
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+18.71025
+  20
+0.6779
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+18.37742
+  20
+0.50464
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+18.03076
+  20
+0.36105
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+17.6729
+  20
+0.24822
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+17.30658
+  20
+0.167
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+16.93456
+  20
+0.11803
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+16.5597
+  20
+0.10166
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+14.66078
+  20
+0.10166
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+14.28592
+  20
+0.11803
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+13.9139
+  20
+0.167
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+13.54758
+  20
+0.24822
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+13.18972
+  20
+0.36105
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+12.84306
+  20
+0.50464
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+12.51024
+  20
+0.6779
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+12.19378
+  20
+0.8795
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+11.89609
+  20
+1.10792
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+11.61945
+  20
+1.36142
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+11.36595
+  20
+1.63806
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+11.13753
+  20
+1.93575
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+10.93593
+  20
+2.2522
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+10.76267
+  20
+2.58503
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+10.61908
+  20
+2.93169
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+10.50625
+  20
+3.28955
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+10.42503
+  20
+3.65587
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+10.37606
+  20
+4.02789
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+10.35969
+  20
+4.40275
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+10.35969
+  20
+13.30172
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+10.33284
+  20
+13.60856
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+10.25313
+  20
+13.90608
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+10.12295
+  20
+14.18523
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+9.94628
+  20
+14.43754
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+9.72848
+  20
+14.65534
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+9.47618
+  20
+14.83201
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+9.19702
+  20
+14.96219
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+8.8995
+  20
+15.0419
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+8.59266
+  20
+15.06875
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+7.1962
+  20
+15.06875
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+7.1962
+  20
+14.96875
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+7.2093
+  20
+14.86894
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+7.03412
+  20
+14.85365
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+6.85828
+  20
+14.85365
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+6.6831
+  20
+14.86894
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+6.6962
+  20
+14.96875
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+6.6962
+  20
+15.06875
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+5.6
+  20
+15.06875
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+5.6
+  20
+14.96875
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+5.74107
+  20
+13.89428
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+5.48069
+  20
+13.87156
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+5.21931
+  20
+13.87156
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+4.95893
+  20
+13.89428
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+5.1
+  20
+14.96875
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+5.1
+  20
+15.06875
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+4.1
+  20
+15.06875
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+4.1
+  20
+14.96875
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+4.1131
+  20
+14.86894
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+3.93792
+  20
+14.85365
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+3.76208
+  20
+14.85365
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+3.5869
+  20
+14.86894
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+3.6
+  20
+14.96875
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+3.6
+  20
+15.06875
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+2.6
+  20
+15.06875
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+1.1
+  20
+15.98578
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+0.1
+  20
+15.98578
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+0.1
+  20
+16.68578
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+1.1
+  20
+16.68578
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+2.6
+  20
+17.60281
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+3.6
+  20
+17.60281
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+3.6
+  20
+17.70281
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+3.5869
+  20
+17.80262
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+3.76208
+  20
+17.81791
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+3.93792
+  20
+17.81791
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+4.1131
+  20
+17.80262
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+4.1
+  20
+17.70281
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+4.1
+  20
+17.60281
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+5.1
+  20
+17.60281
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+5.1
+  20
+17.70281
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+4.95893
+  20
+18.77728
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+5.21931
+  20
+18.8
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+5.48069
+  20
+18.8
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+5.74107
+  20
+18.77728
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+5.6
+  20
+17.70281
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+5.6
+  20
+17.60281
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+6.6962
+  20
+17.60281
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+6.6962
+  20
+17.70281
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+6.6831
+  20
+17.80262
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+6.85828
+  20
+17.81791
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+7.03412
+  20
+17.81791
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+7.2093
+  20
+17.80262
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+7.1962
+  20
+17.70281
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+7.1962
+  20
+17.60281
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+8.59266
+  20
+17.60281
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+8.96752
+  20
+17.58644
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+9.33954
+  20
+17.53747
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+9.70586
+  20
+17.45625
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+10.06372
+  20
+17.34342
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+10.41038
+  20
+17.19983
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+10.74321
+  20
+17.02657
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+11.05966
+  20
+16.82497
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+11.35735
+  20
+16.59655
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+11.63399
+  20
+16.34305
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+11.88749
+  20
+16.06641
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+12.11591
+  20
+15.76872
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+12.31751
+  20
+15.45226
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+12.49077
+  20
+15.11944
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+12.63436
+  20
+14.77278
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+12.74719
+  20
+14.41492
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+12.82841
+  20
+14.0486
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+12.87738
+  20
+13.67658
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+12.89375
+  20
+13.30172
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+12.89375
+  20
+4.40275
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+12.9206
+  20
+4.09591
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+13.00031
+  20
+3.79839
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+13.13049
+  20
+3.51923
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+13.30716
+  20
+3.26693
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+13.52496
+  20
+3.04913
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+13.77727
+  20
+2.87246
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+14.05642
+  20
+2.74228
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+14.35394
+  20
+2.66257
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+14.66078
+  20
+2.63572
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+16.5597
+  20
+2.63572
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+16.86654
+  20
+2.66257
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+17.16406
+  20
+2.74228
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+17.44322
+  20
+2.87246
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+17.69552
+  20
+3.04913
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+17.91332
+  20
+3.26693
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+18.08999
+  20
+3.51923
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+18.22017
+  20
+3.79839
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+18.29988
+  20
+4.09591
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+18.32673
+  20
+4.40275
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+18.32673
+  20
+13.30172
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+18.3431
+  20
+13.67658
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+18.39207
+  20
+14.0486
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+18.47329
+  20
+14.41492
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+18.58612
+  20
+14.77278
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+18.72971
+  20
+15.11944
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+18.90297
+  20
+15.45226
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+19.10457
+  20
+15.76872
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+19.33299
+  20
+16.06641
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+19.58649
+  20
+16.34305
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+19.86313
+  20
+16.59655
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+20.16082
+  20
+16.82497
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+20.47728
+  20
+17.02657
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+20.8101
+  20
+17.19983
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+21.15676
+  20
+17.34342
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+21.51462
+  20
+17.45625
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+21.88094
+  20
+17.53747
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+22.25296
+  20
+17.58644
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+22.62782
+  20
+17.60281
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+24.12782
+  20
+16.68578
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+25.12782
+  20
+16.68578
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+25.12782
+  20
+15.98578
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+24.12782
+  20
+15.98578
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+22.62782
+  20
+15.06875
+  0
+SEQEND
+  0
+ENDSEC
+  0
+EOF

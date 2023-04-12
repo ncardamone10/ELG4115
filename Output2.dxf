@@ -1,0 +1,324 @@
+  0
+SECTION
+  2
+HEADER
+  9
+$ACADVER
+  1
+AC1009
+  9
+$INSUNITS
+  70
+4
+  9
+$EXTMIN
+  10
+-20.48069
+  20
+-40.79499
+  9
+$EXTMAX
+  10
+-5.00331
+  20
+20.53899
+  0
+ENDSEC
+  0
+SECTION
+  2
+TABLES
+  0
+TABLE
+  2
+LTYPE
+  70
+1
+  0
+LTYPE
+  2
+CONTINUOUS
+  70
+64
+  3
+Solid line
+  72
+65
+  73
+0
+  40
+0
+  0
+ENDTAB
+  0
+TABLE
+  2
+LAYER
+  70
+1
+  0
+LAYER
+  2
+Thick_Metal
+  70
+0
+  62
+31
+  6
+CONTINUOUS
+  0
+ENDTAB
+  0
+ENDSEC
+  0
+SECTION
+  2
+BLOCKS
+  0
+ENDSEC
+  0
+SECTION
+  2
+ENTITIES
+  0
+POLYLINE
+  8
+Thick_Metal
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+-12.992
+  20
+-11.828
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+-12.992
+  20
+-8.428
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+-20.48069
+  20
+19.52017
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+-17.93408
+  20
+20.08474
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+-15.34796
+  20
+20.42521
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+-12.742
+  20
+20.53899
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+-10.13604
+  20
+20.42521
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+-7.54992
+  20
+20.08474
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+-5.00331
+  20
+19.52017
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+-12.492
+  20
+-8.428
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+-12.492
+  20
+-11.828
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+-5.00331
+  20
+-39.77617
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+-7.54992
+  20
+-40.34074
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+-10.13604
+  20
+-40.68121
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+-12.742
+  20
+-40.79499
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+-15.34796
+  20
+-40.68121
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+-17.93408
+  20
+-40.34074
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+-20.48069
+  20
+-39.77617
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Thick_Metal
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+-12.492
+  20
+-11.578
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+-7.492
+  20
+-11.578
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+-7.492
+  20
+-8.678
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+-12.492
+  20
+-8.678
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Thick_Metal
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+-17.992
+  20
+-11.578
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+-12.992
+  20
+-11.578
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+-12.992
+  20
+-8.678
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+-17.992
+  20
+-8.678
+  0
+SEQEND
+  0
+ENDSEC
+  0
+EOF

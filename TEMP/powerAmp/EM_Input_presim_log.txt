@@ -1,3 +1,5 @@
-15:03:18 2023-03-13 Log: Do check dataset with the current document
-15:03:18 2023-03-13 Log: Re-simulation, no prior dataset found
-15:03:18 2023-03-13 Log: Schedule simulation job with AXIEM® - Async
+13:57:38 2023-04-12 Log: Do check dataset with the current document
+13:57:38 2023-04-12 Log: Compare the document with the dataset 'EM_Opt5_DS1'
+13:57:38 2023-04-12 Log: [_AUTO_PORTS_]
+13:57:38 2023-04-12 Log: Re-simulation, geometry has changed
+13:57:38 2023-04-12 Log: Schedule simulation job with AXIEM® - Async

@@ -1,0 +1,105 @@
+
+***************************************************************
+*	Infineon	Technologies	AG
+*	GUMMEL-POON	MODEL	IN	SPICE	2G6	SYNTAX
+*	VALID	UP	TO	10	GHZ
+*	>>>	BFP640	<<<
+*	(C)	2013	Infineon	Technologies	AG
+*	Version	2.1	April	2013
+***************************************************************
+* - Please use the global SPICE GP parameter TEMP to specify the
+*	junction temperature of the device in your application to get
+*	correct simulation results. This procedure is necessary because
+*	the GP model does not consider the self heating of the device.
+* - TEMP is calculated by TEMP=TA+Pdc*(RthJS+RthSA). The junction
+*   temperature TEMP is the sum of the ambient temperature TA and
+*   the increment of temperature caused by the dissipated DC power Pdc.
+* - RthJS is the thermal resistance between the junction and the
+*   soldering point. RthJS for this device is 300 K/W. RthSA is the
+*   thermal resistance of the PCB, from the soldering point to the
+*   ambient. For determination of RthSA please refer to Infineon's
+*   Application Note "Thermal Resistance Calculation" AN077.
+* - The model has been verified in the junction temperature range
+*   -25°C to +125°C.
+* - TNOM=25 °C is the nominal ambient temperature during measurement
+*   for the parameter extraction. Please do not change this value.
+****************************************************************
+*.OPTION TNOM=25, GMIN= 1.00e-12
+*BFP640 C B E1 E2
+.SUBCKT BFP640 1 2 3 4
+*
+*
+CBEPAR 22 33 8.577E-014
+CBCPAR 22 11 8.597E-014
+CCEPAR 11 33 1E-015
+LE    33 30 1.41072E-010
+LB    22 20 6.76541E-010
+LC   11 10  4.8003E-010
+CBEPCK 20 30  4E-014
+CBCPCK 20 10  1E-015
+CCEPCK 10 30  4E-014
+LBX    20 2 2.7E-010
+LEX   30 35 8.971E-011
+LCX   10 1  2.7E-010
+*
+RSUB  55 30 260
+Rcx  111 11 4.467
+*
+D1 55 111 M_D1
+*
+RE1 35 3 1E-03
+RE2 35 4 1E-03
+*
+.MODEL M_D1 D(
++ IS=8.005E-015
++ N=1.02
++ RS=0.1
++ CJO=4E-014)
+*
+Q1 111 22 33 55 M_BFP640
+*
+.MODEL 	M_BFP640	NPN(
++	TNOM = 25
++	IS	=	1.239E-015
++	BF	=	887.6
++	NF	=	1
++	VAF	=	1000
++	IKF	=	0.1433
++	ISE	=	1E-014
++	NE	=	2
++	BR	=	148.3
++	NR	=	1
++	VAR	=	1.202
++	IKR	=	0.01
++	ISC	=	2.948E-015
++	NC	=	2
++	RB	=	5.016
++	IRB	=	0
++	RBM	=	1.977
++	RE	=	0.3592
++	RC	=	2.953
++	XTB	=	-2.576
++	EG	=	1.09
++	XTI	=	0.15
++	CJE	=	4.58707E-013
++	VJE	=	1.76884
++	MJE	=	0.164326
++	TF	=	2.13534E-012
++	XTF	=	1
++	VTF	=	0.03
++	ITF	=	2
++	PTF	=	0.1
++	CJC	=	6.62237E-014
++	VJC	=	0.936235
++	MJC	=	1.16702
++	XCJC	=	1
++	TR	=	1E-009
++	CJS	=	1.20379E-013
++	MJS	=	0.3
++   VJS =   1
++	FC	=	0.5
++	KF	=	1.981E-012
++	AF	=	1.552)
+***************************************************************
+*
+.ENDS BFP640

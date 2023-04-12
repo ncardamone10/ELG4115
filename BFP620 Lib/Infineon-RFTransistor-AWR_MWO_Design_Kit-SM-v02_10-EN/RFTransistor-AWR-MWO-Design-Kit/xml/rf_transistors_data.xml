@@ -1,0 +1,901 @@
+<?xml version="1.0"?>
+<XML_COMPONENT_DATA xmlns="urn:awr-lib-data">
+	<COPYRIGHT>The data in this file is copyright of Infineon Technologies</COPYRIGHT>
+	<SUMMARY>This file contains data on Infineon RF Transistors parameterised S-parameter files (MDIFs) </SUMMARY>
+	<FOLDER Name ="Medium Power Amplifiers" Icon ="BJT">
+		<COMPONENT Name="BFP780">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=20GHz, NFmin=1.2dB, Gmax=22.0dB, VCEmax=5V, ICmax=90mA, SOT343 package</DESC>
+			<PARTNUMBER>BFP780H6327XTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/medium-power-amplifiers/BFP780/productType.html?productType=5546d4624ca27d02014cb2b9831402b4#ispnTab1</HELP>
+			<CELL>SOT343_4_1@Package_Lib_MDIF.gds
+</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfp780_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFQ790">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=20GHz, NFmin=2.5dB, Gmax=18.5dB, VCEmax=5V, ICmax=250mA, SOT89 package</DESC>
+			<PARTNUMBER>BFQ790H6327XTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/medium-power-amplifiers/BFQ790/productType.html?productType=5546d4624ca27d02014cb2c2a98202c7#ispnTab1</HELP>
+			<CELL>SOT89@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfq790_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="Web Info">
+			<MODEL>mdif</MODEL>
+			<DESC>Use Righ-Mouse-Click on "Element Help" to go to Infineon WEB</DESC>
+			<PARTNUMBER></PARTNUMBER>
+			<SYMBOL>Infineon_Logo@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/medium-power-amplifiers/channel.html?channel=5546d4624c9e0f0e014c9e104e6c000c</HELP>
+			<CELL></CELL>
+			<DATA DataType="mdif">
+				
+			</DATA>
+		</COMPONENT>
+	</FOLDER>
+	<FOLDER Name ="Ultra Low Noise SiGe:C BJT up to 12 GHz" Icon ="BJT">
+		<COMPONENT Name="BFP840ESD">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=80GHz, NFmin=0.60dB, Gmax=27.0dB, VCEmax=2.25V, ICmax=35mA, SOT343 Package</DESC>
+			<PARTNUMBER>BFP840ESDE6327HTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/ultra-low-noise-sigec-transistor-for-use-up-to-12-ghz/BFP840ESD/productType.html?productType=db3a304431e17d910131e259eaa40084</HELP>
+			<CELL>SOT343_4_2@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfp840esd_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP840FESD">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=85GHz, NFmin=0.55dB, Gmax=27.5dB, VCEmax=2.25V, ICmax=35mA, TSFP-4 Package</DESC>
+			<PARTNUMBER>BFP840FESD6327HTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/ultra-low-noise-sigec-transistor-for-use-up-to-12-ghz/BFP840FESD/productType.html?productType=db3a30443511371601351f61686d080d</HELP>
+			<CELL>TSFP_4@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfp840fesd_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFR840L3RHESD ">
+			<MODEL>mdif</MODEL>
+			<DESC>fT= 75GHz, NFmin=0.5dB, Gmax=26.5dB, VCEmax=2.25V, ICmax=35mA, TSLP-3 Package</DESC>
+			<PARTNUMBER>BFR840L3RHESDE6327XTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/ultra-low-noise-sigec-transistor-for-use-up-to-12-ghz/BFR840L3RHESD/productType.html?productType=db3a304435113716013538ea2fc11591</HELP>
+			<CELL>TSLP_3_9@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfr840l3_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP720ESD">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=43GHz, NFmin=0.55dB, Gmax=27.0dB, VCEmax=4.2V, ICmax=30mA, SOT343 Package</DESC>
+			<PARTNUMBER>BFP720ESDH6327XTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/ultra-low-noise-sigec-transistor-for-use-up-to-12-ghz/BFP720ESD/productType.html?productType=db3a304425afcf6a0126764bd55b7c0c</HELP>
+			<CELL>SOT343_4_2@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfp720esd_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP720FESD">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=45GHz, NFmin=0.50dB, Gmax=27.0dB, VCEmax=4.2V, ICmax=30mA, TSFP-4 Package</DESC>
+			<PARTNUMBER>BFP720FESDH6327XTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/ultra-low-noise-sigec-transistor-for-use-up-to-12-ghz/BFP720FESD/productType.html?productType=db3a30442968bf8d012992cec10b24bf</HELP>
+			<CELL>TSFP_4@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfp720fesd_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP720">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=45GHz, NFmin=0.50dB, Gmax=26.0dB, VCEmax=4.0V, ICmax=30mA, SOT343 Package</DESC>
+			<PARTNUMBER>BFP720E6327HTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/ultra-low-noise-sigec-transistor-for-use-up-to-12-ghz/BFP720/productType.html?productType=db3a3044243b532e0125016206aa7cde</HELP>
+			<CELL>SOT343_4_2@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfp720_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP720F">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=45GHz, NFmin=0.50dB, Gmax=26.0dB, VCEmax=4.0V, ICmax=30mA, TSFP-4 Package</DESC>
+			<PARTNUMBER>BFP720FE6327HTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/ultra-low-noise-sigec-transistor-for-use-up-to-12-ghz/BFP720F/productType.html?productType=db3a3044243b532e01250162088f7cdf</HELP>
+			<CELL>TSFP_4@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfp720f_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP740ESD">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=45GHz, NFmin=0.55dB, Gmax=26.5dB, VCEmax=4.2V, ICmax=45mA, SOT343 Package</DESC>
+			<PARTNUMBER>BFP740ESDH6327XTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/ultra-low-noise-sigec-transistor-for-use-up-to-12-ghz/BFP740ESD/productType.html?productType=db3a304425afcf6a0126764bd95e7c0d</HELP>
+			<CELL>SOT343_4_2@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfp740esd_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP740FESD">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=45GHz, NFmin=0.50dB, Gmax=26.5dB, VCEmax=4.2V, ICmax=45mA, TSFP-4 Package</DESC>
+			<PARTNUMBER>BFP740FESDH6327XTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/ultra-low-noise-sigec-transistor-for-use-up-to-12-ghz/BFP740FESD/productType.html?productType=db3a30442c64a1a6012cc11de050669c</HELP>
+			<CELL>TSFP_4@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfp740fesd_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP740">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=42GHz, NFmin=0.50dB, Gmax=27.0dB, VCEmax=4.0V, ICmax=45mA, SOT343 Package</DESC>
+			<PARTNUMBER>BFP740E6327HTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/ultra-low-noise-sigec-transistor-for-use-up-to-12-ghz/BFP740/productType.html?productType=db3a3044243b532e012501620a877ce0</HELP>
+			<CELL>SOT343_4_2@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfp740_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP620F">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=65GHz, NFmin=0.7dB, Gmax=21dB, VCEmax=2.3V, ICmax=80mA, TSFP-4 Package</DESC>
+			<PARTNUMBER>BFP620FH7764XTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/ultra-low-noise-sigec-transistor-for-use-up-to-12-ghz/BFP620F/productType.html?productType=db3a3044243b532e0124c9cee8126370</HELP>
+			<CELL>TSFP_4@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfp620f_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP620">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=65GHz, NFmin=0.7dB, Gmax=21.5dB, VCEmax=2.3V, ICmax=80mA, SOT343 Package</DESC>
+			<PARTNUMBER>BFP620E7764BTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/ultra-low-noise-sigec-transistor-for-use-up-to-12-ghz/BFP620/productType.html?productType=db3a3044243b532e0124c9cee5f7636f</HELP>
+			<CELL>SOT343_4_2@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfp620_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP640ESD">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=46GHz, NFmin=0.65dB, Gmax=25.0dB, VCEmax=4.1V, ICmax=50mA, SOT343 Package</DESC>
+			<PARTNUMBER>BFP640ESDH6327XTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/ultra-low-noise-sigec-transistor-for-use-up-to-12-ghz/BFP640ESD/productType.html?productType=db3a304425afcf6a0126764bd3687c0b</HELP>
+			<CELL>SOT343_4_2@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfp640esd_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP640FESD">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=46GHz, NFmin=0.55dB, Gmax=26.5dB, VCEmax=4.1V, ICmax=50mA, TSFP-4 Package</DESC>
+			<PARTNUMBER>BFP640FESDH6327XTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/ultra-low-noise-sigec-transistor-for-use-up-to-12-ghz/BFP640FESD/productType.html?productType=db3a30442c64a1a6012cc11ddc31669b</HELP>
+			<CELL>TSFP_4@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfp640fesd_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP640">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=40GHz, NFmin=0.65dB, Gmax=24.0dB, VCEmax=4.0V, ICmax=50mA, SOT343 Package</DESC>
+			<PARTNUMBER>BFP640E6327BTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/ultra-low-noise-sigec-transistor-for-use-up-to-12-ghz/BFP640/productType.html?productType=db3a3044243b532e0124c9ceea796371</HELP>
+			<CELL>SOT343_4_2@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfp640_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFR740L3RH">
+			<MODEL>mdif</MODEL>
+			<DESC>fT= 42GHz, NFmin=0.5dB, Gmax=24.5dB, VCEmax=4V, ICmax=45mA, TSLP-3 Package</DESC>
+			<PARTNUMBER>BFR740L3RHE6327XTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/ultra-low-noise-sigec-transistor-for-use-up-to-12-ghz/BFR740L3RH/productType.html?productType=ff80808112ab681d0112ab6e0ce61648</HELP>
+			<CELL>TSLP_3_1@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfr740L3rh_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP842ESD">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=57GHz, NFmin=0.40dB, Gmax=23.5dB, VCEmax=3.25V, ICmax=40mA, SOT343 Package</DESC>
+			<PARTNUMBER>BFP842ESDH6327XTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/ultra-low-noise-sigec-transistor-for-use-up-to-12-ghz/BFP842ESD/productType.html?productType=db3a304431e17d910131e259ed000085</HELP>
+			<CELL>SOT343_4_2@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfp842esd_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP843">
+			<MODEL>mdif</MODEL>
+			<DESC>NFmin=0.9dB, Gmax=22.5dB, VCEmax=2.25V, ICmax=55mA, SOT343 Package</DESC>
+			<PARTNUMBER>BFP843H6327XTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/ultra-low-noise-sigec-transistor-for-use-up-to-12-ghz/BFP843/productType.html?productType=db3a30443af36183013af4abbfee037a</HELP>
+			<CELL>SOT343_4_2@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfp843_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP640F">
+			<MODEL>mdif</MODEL>
+			<DESC>fT= 42GHz, NFmin=0.65dB, Gmax=23dB, VCEmax=4V, ICmax=50mA, TSFP-4 Package</DESC>
+			<PARTNUMBER>BFP640FH6327XTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/ultra-low-noise-sigec-transistor-for-use-up-to-12-ghz/BFP640F/productType.html?productType=db3a3044243b532e01250161feea7cdb</HELP>
+			<CELL>TSFP_4@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfp640f_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP740F">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=45GHz, NFmin=1dB, Gmax=22.5.0dB, VCEmax=2.25V, ICmax=55mATSFP-4 Package</DESC>
+			<PARTNUMBER>BFP740FH6327XTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/ultra-low-noise-sigec-transistor-for-use-up-to-12-ghz/BFP740F/productType.html?productType=db3a3044243b532e012501620c757ce1</HELP>
+			<CELL>TSFP_4@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfp740f_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFR840L3">
+			<MODEL>mdif</MODEL>
+			<DESC>Description is ongoing</DESC>
+			<PARTNUMBER></PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP></HELP>
+			<CELL></CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfr840l3_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFR843EL3">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=24GHz, NFmin=1dB, Gmax=27.5.0dB, VCEmax=4.0V, ICmax=45mA,TSFP-4 Package</DESC>
+			<PARTNUMBER>
+BFR843EL3E6327XTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/ultra-low-noise-sigec-transistor-for-use-up-to-12-ghz/BFR843EL3/productType.html?productType=db3a30443af36183013af4e2b08d040f</HELP>
+			<CELL>TSFP_4@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfr843el3_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP843F">
+			<MODEL>mdif</MODEL>
+			<DESC>NFmin=0.90dB, Gmax=23.5dB, VCEmax=2.25V, ICmax=55mA, TSFP-4 Package</DESC>
+			<PARTNUMBER>BFP843FH6327XTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/ultra-low-noise-sigec-transistor-for-use-up-to-12-ghz/BFP843F/productType.html?productType=db3a30443af36183013af4e2ae47040e</HELP>
+			<CELL>TSFP_4@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfp843f_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="Web Info">
+			<MODEL>mdif</MODEL>
+			<DESC>Use Righ-Mouse-Click on "Element Help" to go to Infineon WEB</DESC>
+			<PARTNUMBER></PARTNUMBER>
+			<SYMBOL>Infineon_Logo@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf/rf-transistors/ultra-low-noise-sige:c-transistors-for-use-up-to-12-ghz/channel.html?channel=db3a30432b16d655012b1e9ec92d5b2d</HELP>
+			<CELL></CELL>
+			<DATA DataType="mdif">
+				
+			</DATA>
+		</COMPONENT>
+	</FOLDER>
+	<FOLDER Name ="High Linearity Si-,SiGe:C-Transistors up to 6 GHz" Icon ="BJT">
+		<COMPONENT Name="BFP650">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=41GHz, OP1dB=17dBm, Gmax=21.5dB, VCEmax=4.0V, ICmax=150mA, SOT343 Package</DESC>
+			<PARTNUMBER>BFP650E6327HTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/high-linearity-si-and-sigec-transistor-for-use-up-to-6-ghz/BFP650/productType.html?productType=db3a3044243b532e0125016200e37cdc</HELP>
+			<CELL>SOT343_4_2@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfp650_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP750">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=41GHz, OP1dB=16dBm, Gmax=22.5dB, VCEmax=4.0V, ICmax=120mA, SOT343 Package</DESC>
+			<PARTNUMBER>BFP750H6327XTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/high-linearity-si-and-sigec-transistor-for-use-up-to-6-ghz/BFP750/productType.html?productType=db3a30442b8709d7012b9ba3e64e1018</HELP>
+			<CELL>SOT343_4_2@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfp750_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP450">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=24GHz, OP1dB=19dBm, Gmax=15.5dB, VCEmax=4.5V, ICmax=240mA, SOT343 Package</DESC>
+			<PARTNUMBER>BFP450E6327BTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/high-linearity-si-and-sigec-transistor-for-use-up-to-6-ghz/BFP450/productType.html?productType=db3a3044243b532e0124c9ced1886365</HELP>
+			<CELL>SOT343_4_2@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfp450_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFR380F">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=14GHz, OP1dB=17dBm, Gmax=13.5dB, VCEmax=6.0V, ICmax= 90mA, TSFP-3 Package</DESC>
+			<PARTNUMBER>BFR380FE6327BTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/high-linearity-si-and-sigec-transistor-for-use-up-to-6-ghz/BFR380F/productType.html?productType=db3a3044243b532e01250198e3567d10</HELP>
+			<CELL>TSFP_3@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfr380f_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFR106">
+			<MODEL>mdif</MODEL>
+			<DESC>fT= 5GHz,  OP1dB=22dBm, Gmax=13.0dB, VCEmax=16V, ICmax=120mA, SOT23 Package</DESC>
+			<PARTNUMBER>BFR106E6327HTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf/rf-transistor/high-linearity-si-and-sigec-transistor-for-use-up-to-6-ghz/BFR106/productType.html?productType=ff80808112ab681d0112ab6fc9e427c4</HELP>
+			<CELL>SOT23@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfr106_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP760">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=45GHz, OP1dB=14dBm, Gmax=25.0dB, VCEmax=4.0V, ICmax=70mA, SOT343 Package</DESC>
+			<PARTNUMBER>BFP760H6327XTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf/rf-transistor/high-linearity-si-and-sigec-transistor-for-use-up-to-6-ghz/BFP760/productType.html?productType=db3a3044382e4f0601384c2334461be9</HELP>
+			<CELL>SOT343_4_2@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfp760_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP193">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=8GHz, OP1dB=15dBm, Gmax=18.0dB, VCEmax=12V, ICmax=80mA, SOT143-4-1 Package</DESC>
+			<PARTNUMBER>BFP193E6327HTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/high-linearity-si-and-sigec-transistor-for-use-up-to-6-ghz/BFP193/productType.html?productType=ff80808112ab681d0112ab6ee60f1f6a</HELP>
+			<CELL>SOT143_1@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfp193_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP193w">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=8GHz, OP1dB=15dBm, Gmax=20.5dB, VCEmax=12V, ICmax=80mA, SOT343 Package</DESC>
+			<PARTNUMBER>BFP193WH6327XTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/high-linearity-si-and-sigec-transistor-for-use-up-to-6-ghz/BFP193W/productType.html?productType=db3a3044243b532e0124c9ceae34635b</HELP>
+			<CELL>SOT343_4_1@Package_Lib_MDIF.gds
+</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfp193w_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP196">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=7.5GHz, OP1dB=19dBm, Gmax=16.5dB, VCEmax=12V, ICmax=150mA, SOT143 Package</DESC>
+			<PARTNUMBER>BFP196E6327HTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/high-linearity-si-and-sigec-transistor-for-use-up-to-6-ghz/BFP196/productType.html?productType=ff80808112ab681d0112ab6ef44b1fe0</HELP>
+			<CELL>SOT143_1@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfp196_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP196w">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=7.5GHz, OP1dB=19dBm, Gmax=19.0dB, VCEmax=12V, ICmax=150mA, SOT343 Package</DESC>
+			<PARTNUMBER>BFP193E6327HTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/high-linearity-si-and-sigec-transistor-for-use-up-to-6-ghz/BFP196W/productType.html?productType=db3a3044243b532e0124c9ceb0a1635c</HELP>
+			<CELL>SOT343_4_1@Package_Lib_MDIF.gds
+</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfp196w_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP650F">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=42GHz, OP1dB=17.5dBm, Gmax=21.5dB, VCEmax=4V, ICmax=150mA, TSFP-4-1 Package</DESC>
+			<PARTNUMBER>BFP650FH6327XTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/high-linearity-si-and-sigec-transistor-for-use-up-to-6-ghz/BFP650F/productType.html?productType=db3a3044243b532e0125016202cc7cdd</HELP>
+			<CELL>TSFP_4@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfp650f_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFQ19S">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=5.5GHz, OP1dB=22dBm, Gmax=11.5dB, VCEmax=15V, ICmax=120mA, SOT89 package</DESC>
+			<PARTNUMBER>BFQ19SH6327XTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/high-linearity-si-and-sigec-transistor-for-use-up-to-6-ghz/BFQ19S/productType.html?productType=db3a30443ef951e3013f0efeb1471f36#ispnTab4</HELP>
+			<CELL>SOT89_4_3@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfq19s_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFR193">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=8GHz, OP1dB=15dBm, Gmax=15dB, VCEmax=4V, ICmax=80mA, SOT23 Package</DESC>
+			<PARTNUMBER>BFR193E6327HTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/high-linearity-si-and-sigec-transistor-for-use-up-to-6-ghz/BFR193/productType.html?productType=ff80808112ab681d0112ab70230b2a46</HELP>
+			<CELL>SOT23@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfr193_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFR193W">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=8.0GHz, OIP3=30.0dBm, Gmax=16.0dB, VCE0max=12.0V, ICmax=80.0mA, SOT323 package</DESC>
+			<PARTNUMBER>BFR193WH6327XTSA1</PARTNUMBER>
+			<SYMBOL>BJT3@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/productType.html?productType=db3a3044243b532e012457de062d0980</HELP>
+			<CELL>SOT323_1@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfr193w_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFR380L3">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=14GHz, OP1dB=16dBm, Gmax=13.5dB, VCEmax=6V, ICmax=80mA, TSLP-3-1 Package</DESC>
+			<PARTNUMBER>BFR380L3E6327XTMA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/high-linearity-si-and-sigec-transistor-for-use-up-to-6-ghz/BFR380L3/productType.html?productType=ff80808112ab681d0112ab703ca72b14</HELP>
+			<CELL>TSLP_3_1@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfr380l3_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFR750L3RH">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=37GHz, OP1dB=15dBm, Gmax=14.5dB, VCEmax=12V, ICmax=90mA, TSLP-3-9 Package</DESC>
+			<PARTNUMBER>BFR750L3RHE6327XTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/high-linearity-si-and-sigec-transistor-for-use-up-to-6-ghz/BFR750L3RH/productType.html?productType=ff80808112ab681d0112ab6faea626da</HELP>
+			<CELL>TSLP_3_9@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfr750l3rh_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFR93A">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=6GHz, OP1dB=15dBm, Gmax=14.5dB, VCEmax=12V, ICmax=90mA, SOT23 Package</DESC>
+			<PARTNUMBER>BFR93AE6327HTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/high-linearity-si-and-sigec-transistor-for-use-up-to-6-ghz/BFR93A/productType.html?productType=ff80808112ab681d0112ab6f8a25259c</HELP>
+			<CELL>SOT23@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfr93a_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFR93AW">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=6GHz, OP1dB=15dBm, Gmax=15.5dB, VCEmax=12V, ICmax=90mA, SOT323 Package</DESC>
+			<PARTNUMBER>BFR93AWH6327XTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/high-linearity-si-and-sigec-transistor-for-use-up-to-6-ghz/BFR93AW/productType.html?productType=db3a3044243b532e012457de043d097f</HELP>
+			<CELL>SOT323_1@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfr93aw_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="Web Info">
+			<MODEL>mdif</MODEL>
+			<DESC>Use Righ-Mouse-Click on "Element Help" to go to Infineon WEB</DESC>
+			<PARTNUMBER></PARTNUMBER>
+			<SYMBOL>Infineon_Logo@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf/rf-transistors/high-linearity-si-and-sige:c-transistors-for-use-up-to-6-ghz/channel.html?channel=ff80808112ab681d0112ab6b2cf10754</HELP>
+			<CELL></CELL>
+			<DATA DataType="mdif">
+				
+			</DATA>
+		</COMPONENT>
+	</FOLDER>
+	<FOLDER Name ="Low Noise Si Transistors up to 5 GHz" Icon ="BJT">
+		<COMPONENT Name="BFP405">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=25GHz, NFmin=1.25dB, Gmax=23.0dB, VCEmax=4.5V, ICmax=25mA, SOT343 Package</DESC>
+			<PARTNUMBER>BFP405E6327BTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/low-noise-si-transistor-up-to-5-ghz/BFP405/productType.html?productType=db3a3044243b532e0124c9ceb2cb635d</HELP>
+			<CELL>SOT343_4_2@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfp405_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP405F">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=25GHz, NFmin=1.25dB, Gmax=22.5dB, VCEmax=4.5V, ICmax=12mA, TSFP-4 Package</DESC>
+			<PARTNUMBER>BFP405FH6327XTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/low-noise-si-transistor-up-to-5-ghz/BFP405F/productType.html?productType=db3a3044243b532e0124c9cec037635f#ispnTab1</HELP>
+			<CELL>TSFP_4@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfp405f_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP410">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=25GHz, NFmin=1.2dB, Gmax=21.5dB, VCEmax=4.5V, ICmax=40mA, SOT343 Package</DESC>
+			<PARTNUMBER>BFP410H6327XTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/low-noise-si-transistor-up-to-5-ghz/BFP410/productType.html?productType=db3a3044252f0d6f01256effb7b7291a#ispnTab1</HELP>
+			<CELL>SOT343_4_2@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfp410_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP420">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=25GHz, NFmin=0.9dB, Gmax=21.0dB, VCEmax=4.5V, ICmax=60mA, SOT343 Package</DESC>
+			<PARTNUMBER>BFP420E6327BTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/low-noise-si-transistor-up-to-5-ghz/BFP420/productType.html?productType=db3a3044243b532e0124c9cec25d6360</HELP>
+			<CELL>SOT343_4_2@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfp420_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP420F">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=25GHz, NFmin=0.9dB, Gmax=19.5dB, VCEmax=4.5V, ICmax=60mA, TSFP-4 Package</DESC>
+			<PARTNUMBER>BFP420FE6327BTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/low-noise-si-transistor-up-to-5-ghz/BFP420F+/productType.html?productType=db3a3044243b532e0124c9cecb2f6364</HELP>
+			<CELL>TSFP_4@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfp420f_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP460">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=22GHz, NFmin=0.7dB, Gmax=17.5dB, VCEmax=4.5V, ICmax=70mA, SOT343 Package</DESC>
+			<PARTNUMBER>BFP460E6327HTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/low-noise-si-transistor-up-to-5-ghz/BFP460/productType.html?productType=db3a3044243b532e0124c9ced7936368</HELP>
+			<CELL>SOT343_4_2@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfp460_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFR460L3">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=22GHz, NFmin=0.6dB, Gmax=16.0dB, VCEmax=4.5V, ICmax=70mA, TSLP-3 Package</DESC>
+			<PARTNUMBER>BFR460L3E6327XTMA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/low-noise-si-transistor-up-to-5-ghz/BFR460L3/productType.html?productType=ff80808112ab681d0112ab6d49ec0e92</HELP>
+			<CELL>TSLP_3_1@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfr460l3_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP520">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=45GHz, NFmin=0.95dB, Gmax=23.5dB, VCEmax=2.5V, ICmax=40mA, SOT343 Package</DESC>
+			<PARTNUMBER>BFP520E6327BTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/low-noise-si-transistor-up-to-5-ghz/BFP520/productType.html?productType=db3a3044243b532e0124c9cedbc0636a</HELP>
+			<CELL>SOT343_4_2@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfp520_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP540FESD">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=30GHz, NFmin=0.9dB, Gmax=20.0dB, VCEmax=4.5V, ICmax=80mA, TSFP-4 Package</DESC>
+			<PARTNUMBER>BFP540FESDH6327XTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/low-noise-si-transistor-up-to-5-ghz/BFP540FESD/productType.html?productType=db3a3044243b532e0124c9cee3dc636e</HELP>
+			<CELL>TSFP_4@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfp540fesd_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP540ESD">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=30GHz, NFmin=0.9dB, Gmax=21.5dB, VCEmax=4.5V, ICmax=80mA, SOT343 Package</DESC>
+			<PARTNUMBER>BFP540ESDE6327HTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/low-noise-si-transistor-up-to-5-ghz/BFP540ESD/productType.html?productType=db3a3044243b532e0124c9cee1d9636d</HELP>
+			<CELL>SOT343_4_2@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfp540esd_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP540">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=30GHz, NFmin=0.9dB, Gmax=21.5dB, VCEmax=4.5V, ICmax=80mA, SOT343 Package</DESC>
+			<PARTNUMBER>BFP540E6327BTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/low-noise-si-transistor-up-to-5-ghz/BFP540/productType.html?productType=db3a3044243b532e0124c9cedfd0636c</HELP>
+			<CELL>SOT343_4_2@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfp540_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="Web Info">
+			<MODEL>mdif</MODEL>
+			<DESC>Use Righ-Mouse-Click on "Element Help" to go to Infineon WEB</DESC>
+			<PARTNUMBER></PARTNUMBER>
+			<SYMBOL>Infineon_Logo@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf/rf-transistors/low-noise-si-transistors-up-to-5-ghz/channel.html?channel=ff80808112ab681d0112ab6b2c590752</HELP>
+			<CELL></CELL>
+			<DATA DataType="mdif">
+				
+			</DATA>
+		</COMPONENT>
+	</FOLDER>
+	<FOLDER Name ="Low Noise Si Transistors up to 2.5 GHz" Icon ="BJT">
+		<COMPONENT Name="BFR340F">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=14GHz, NFmin=0.65dB, Gmax=16.5dB, VCEmax=6V, ICmax=20mA, TSFP-3 Package</DESC>
+			<PARTNUMBER>BFR340FE6327HTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/low-noise-si-transistor-up-to-25-ghz/BFR340F/productType.html?productType=db3a3044243b532e0125016218557ce6</HELP>
+			<CELL>TSFP_3@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfr340f_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP181">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=8GHz, NFmin=0.9dB, Gmax=21dB, VCEmax=12V, ICmax=20mA, SOT143-4-1 Package</DESC>
+			<PARTNUMBER>BFP181E7764HTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/low-noise-si-transistor-up-to-25-ghz/BFP181/productType.html?productType=ff80808112ab681d0112ab6e69a71a54</HELP>
+			<CELL>SOT143_1@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfp181_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP182W">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=8GHz, NFmin=0.9dB, Gmax=21dB, VCEmax=12V, ICmax=20mA,SOT343  Package</DESC>
+			<PARTNUMBER>BFP182WH6327XTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/low-noise-si-transistor-up-to-25-ghz/BFP182W/productType.html?productType=db3a3044243b532e0124c960d6f062e6</HELP>
+			<CELL>SOT343_4_1@Package_Lib_MDIF.gds
+</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfp182w_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP183E7764">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=8GHz, NFmin=0.9dB, Gmax=22dB, VCEmax=12V, ICmax=65mA,  SOT143-4-1  Package</DESC>
+			<PARTNUMBER>BFP183E7764HTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/low-noise-si-transistor-up-to-25-ghz/BFP+183+E7764/productType.html?productType=ff80808112ab681d0112ab6edaa41efe</HELP>
+			<CELL>SOT143_1@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfp183e7764_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFP183W">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=8GHz, NFmin=0.9dB, Gmax=22dB, VCEmax=12V, ICmax=65mA,  ,SOT343  Package</DESC>
+			<PARTNUMBER>BFP183WH6327XTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/low-noise-si-transistor-up-to-25-ghz/BFP183W/productType.html?productType=db3a3044243b532e0124c9ceac1a635a</HELP>
+			<CELL>SOT343_4_1@Package_Lib_MDIF.gds
+</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfp183w_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFR181">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=8GHz, NFmin=0.9dB, Gmax=18.5dB, VCEmax=12V, ICmax=20mA,  ,SOT23 Package</DESC>
+			<PARTNUMBER>BFR181E6327HTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/low-noise-si-transistor-up-to-25-ghz/BFR181/productType.html?productType=ff80808112ab681d0112ab6fd2dc27f2</HELP>
+			<CELL>SOT23@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfr181_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFR181W">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=8GHz, NFmin=0.9dB, Gmax=19dB, VCEmax=12V, ICmax=20mA,  ,SOT323 Package</DESC>
+			<PARTNUMBER>BFR181WH6327XTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/low-noise-si-transistor-up-to-25-ghz/BFR181W/productType.html?productType=db3a3044243b532e012501620e627ce2</HELP>
+			<CELL>SOT323_1@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfr181w_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFR182">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=8GHz, NFmin=0.9dB, Gmax=19dB, VCEmax=12V, ICmax=35mA,  ,SOT323 Package</DESC>
+			<PARTNUMBER>BFR182E6327HTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/low-noise-si-transistor-up-to-25-ghz/BFR182/productType.html?productType=ff80808112ab681d0112ab6fdfb2283c</HELP>
+			<CELL>SOT323_1@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfr182_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFR182W">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=8GHz, NFmin=0.9dB, Gmax=18dB, VCEmax=12V, ICmax=35mA,  ,SOT23 Package</DESC>
+			<PARTNUMBER>BFR182WH6327XTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/low-noise-si-transistor-up-to-25-ghz/BFR182W/productType.html?productType=db3a3044243b532e0125016210767ce3</HELP>
+			<CELL>SOT23@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfr182w_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFR183">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=8GHz, NFmin=0.9dB, Gmax=17.5dB, VCEmax=12V, ICmax=65mA,  ,SOT23 Package</DESC>
+			<PARTNUMBER>BFR183E6327HTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/low-noise-si-transistor-up-to-25-ghz/BFR183/productType.html?productType=ff80808112ab681d0112ab7017682a0c</HELP>
+			<CELL>SOT23@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfr183_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFR183W">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=8GHz, NFmin=0.9dB, Gmax=18.5dB, VCEmax=12V, ICmax=65mA,  ,SOT323 Package</DESC>
+			<PARTNUMBER>BFR183WH6327XTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/low-noise-si-transistor-up-to-25-ghz/BFR183W/productType.html?productType=db3a3044243b532e01250162126f7ce4</HELP>
+			<CELL>SOT323_1@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfr183w_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFR340L3">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=14GHz, NFmin=1.15dB, Gmax=17.5dB, VCEmax=12V, ICmax=10mA,  TSLP-3-1 Package</DESC>
+			<PARTNUMBER>BFR340L3E6327XTMA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/low-noise-si-transistor-up-to-25-ghz/BFR340L3/productType.html?productType=ff80808112ab681d0112ab6f1afe2198</HELP>
+			<CELL>TSLP_3_1@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfr340l3_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFR35AP">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=5GHz, NFmin=1.4dB, Gmax=16dB, VCEmax=15V, ICmax=45mA, SOT23 Package</DESC>
+			<PARTNUMBER>BFR35APE6327HTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/low-noise-si-transistor-up-to-25-ghz/BFR35AP/productType.html?productType=ff80808112ab681d0112ab6f49a52322</HELP>
+			<CELL>SOT23@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfr35ap_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFR360F">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=14GHz, NFmin=1.dB, Gmax=15.5dB, VCEmax=6V, ICmax=35mA,TSFP-3 Package</DESC>
+			<PARTNUMBER>BFR360FH6327XTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/low-noise-si-transistor-up-to-25-ghz/BFR360F/productType.html?productType=db3a3044243b532e012501621a4a7ce7</HELP>
+			<CELL>TSFP_3@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfr360f_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFR360L3">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=14GHz, NFmin=1.dB, Gmax=16dB, VCEmax=6V, ICmax=35mA,TSLP-3-1 Package</DESC>
+			<PARTNUMBER>BFR360L3E6765XTMA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/low-noise-si-transistor-up-to-25-ghz/BFR360L3/productType.html?productType=ff80808112ab681d0112ab6f6259241c</HELP>
+			<CELL>TSLP_3_1@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfr360l3_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFR92P">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=5GHz, NFmin=1.4dB, Gmax=16dB, VCEmax=15V, ICmax=45mA,SOT23 Package</DESC>
+			<PARTNUMBER>BFR92PE6327HTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/low-noise-si-transistor-up-to-25-ghz/BFR92P/productType.html?productType=ff80808112ab681d0112ab6f7662251a</HELP>
+			<CELL>SOT23@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfr92p_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFS17P">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=1.4GHz, NFmin=3.5dB, Gmax=12.7dB, VCEmax=15V, ICmax=25mA,SOT23 Package</DESC>
+			<PARTNUMBER>BFS17PE6327HTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/low-noise-si-transistor-up-to-25-ghz/BFS17P/productType.html?productType=ff80808112ab681d0112ab7087cd2d74</HELP>
+			<CELL>SOT23@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfs17p_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFS17S">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=1.4GHz, NFmin=3dB, Gmax=12.7dB, VCEmax=15V, ICmax=25mA,SOT363 Package</DESC>
+			<PARTNUMBER>BFS17SH6327XTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/low-noise-si-transistor-up-to-25-ghz/BFS17S/productType.html?productType=db3a3044243b532e01250198e7447d12</HELP>
+			<CELL>SOT363@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfs17s_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFS17W">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=1.4GHz, NFmin=3.5dB, Gmax=12.7dB, VCEmax=15V, ICmax=25mA,SOT323 Package</DESC>
+			<PARTNUMBER>BFS17WH6327XTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/low-noise-si-transistor-up-to-25-ghz/BFS17W/productType.html?productType=db3a3044243b532e01250198ed5d7d13</HELP>
+			<CELL>SOT323_1@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfs17w_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFS481">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=8GHz, NFmin=0.9dB, Gmax=20dB, VCEmax=12V, ICmax=20mA,SOT363 Package</DESC>
+			<PARTNUMBER>BFS481H6327XTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/low-noise-si-transistor-up-to-25-ghz/BFS481/productType.html?productType=db3a3044243b532e01250198f6fc7d15</HELP>
+			<CELL>SOT363@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfs481_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="BFS483">
+			<MODEL>mdif</MODEL>
+			<DESC>fT=8GHz, NFmin=0.9dB, Gmax=19dB, VCEmax=12V, ICmax=65mA,SOT363 Package</DESC>
+			<PARTNUMBER>BFS483H6327XTSA1</PARTNUMBER>
+			<SYMBOL>BJT2@system.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf-and-wireless-control/rf-transistor/low-noise-si-transistor-up-to-25-ghz/BFS483/productType.html?productType=db3a3044243b532e01250198fcd37d16</HELP>
+			<CELL>SOT363@Package_Lib_MDIF.gds</CELL>
+			<DATA DataType="mdif">
+				../rf_transistors/bfs483_spar.mdif
+			</DATA>
+		</COMPONENT>
+		<COMPONENT Name="Web Info">
+			<MODEL>mdif</MODEL>
+			<DESC>Use Righ-Mouse-Click on "Element Help" to go to Infineon WEB</DESC>
+			<PARTNUMBER></PARTNUMBER>
+			<SYMBOL>Infineon_Logo@infineon_32.syf</SYMBOL>
+			<HELP>http://www.infineon.com/cms/en/product/rf/rf-transistors/low-noise-si-transistors-up-to-2,5-ghz/channel.html?channel=ff80808112ab681d0112ab6b2bb80750</HELP>
+			<CELL></CELL>
+			<DATA DataType="mdif">
+				
+			</DATA>
+		</COMPONENT>
+	</FOLDER>
+</XML_COMPONENT_DATA>
